@@ -26,8 +26,9 @@ class TCPDF extends Component
 
     public function __construct()
     {
+        $vendor = Yii::getAlias('@vendor');
         // Include the main TCPDF library
-        require_once(Yii::getAlias('@vendor').'/autoload.php');
+        require_once($vendor.'/autoload.php');
     }
 
 }
