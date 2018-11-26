@@ -27,7 +27,7 @@ class TCPDF extends Component
     public function __construct()
     {
         // Include the main TCPDF library
-        require_once(dirname(__FILE__).'/tcpdf/tcpdf.php');
+        require_once(Yii::getAlias('@vendor').'/autoload.php');
     }
 
 }
