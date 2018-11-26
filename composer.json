@@ -1,0 +1,30 @@
+{
+  "name": "paskuale75/yii2-tcpdf",
+  "description": "load TCPDF library in Yii2",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "paskuale",
+      "email": "pellicanipasquale@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "paskuale75\\tcpdf\\": ""
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "yiisoft/yii2": "~2.0.6",
+    "ext-curl": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+
+}
