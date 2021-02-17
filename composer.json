@@ -18,7 +18,7 @@
   "require": {
     "php": ">=7.1.0",
     "yiisoft/yii2": "~2.0.6",
-    "tecnickcom/tc-lib-pdf": "dev-master"
+    "tecnickcom/tc-lib-pdf": "dev-main"
   },
   "repositories": [
     {
